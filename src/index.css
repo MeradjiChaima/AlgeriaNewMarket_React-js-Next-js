@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/************************ Benabadji Abdelkader Tarik ************************
+ *
+ *
+ * Fonts setup
+ *
+ *
+ ****************************************************************************/
+
+* {
+	font-family: "Raleway" !important;
+	font-weight: 600 !important;
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: url("./fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+}

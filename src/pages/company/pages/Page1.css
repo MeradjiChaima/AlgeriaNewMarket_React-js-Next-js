@@ -1,0 +1,76 @@
+@media screen  and (max-width: 800px){
+    #box{
+        display: none;
+    }
+    #logodiv{
+        width: 100%;
+        flex-direction: column; 
+        margin-left: 3%;
+    }
+    #textinput{
+        width: 35% !important;
+
+        
+    }
+    #imagebloc{
+        width:90% !important;
+    }
+    #stackcontact{
+        width: 100% !important;
+    }
+   
+    #textline{
+        width:36%;
+    }
+    
+   
+    #stack{
+        width: 100%;
+        justify-content: center;
+    }
+    #stack2{
+        width: 100% !important;
+        flex-direction: column;
+    }
+    #rows{
+      
+        flex-direction: column;
+       
+        
+    }
+   
+    .colone{
+        width:100% !important;
+        margin-bottom: 2%;
+       
+        gap: 8%;
+    }  
+    #checks{
+       width: 100% !important;
+    
+    } 
+    
+    #check{
+        flex-direction: column;
+        
+    }
+   #checktxt{
+    white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; 
+     
+   }
+   #descriptionbox{
+    flex-direction: column;
+   
+    margin-left: 5%;
+   }
+   #expositionbox{
+    flex-direction: column;
+    
+   }
+   #expo{
+    width: 100% !important;
+   }
+   
+}
